@@ -78,8 +78,10 @@ We would like you to have well over 200 commits by graduation, so commit early a
 You are required to submit the following:
 
 * The URL of the deployed application
+- https://notetaker-rv1.herokuapp.com/
 
 * The URL of the GitHub repository
+- https://github.com/liemnguyen0111/NoteTaker
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
