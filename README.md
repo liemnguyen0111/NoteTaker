@@ -7,7 +7,7 @@ npm i
 node app.js or npx nodemon
 
 Below is the video demonstrate how to use the application:
-![Note Taker]('./gif/NoteTaker.gif')
+![Note Taker](./gif/NoteTaker.gif)
 
 ## Description
 
