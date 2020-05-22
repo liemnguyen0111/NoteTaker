@@ -1,0 +1,25 @@
+{
+  "name": "NoteTaker",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liemnguyen0111/NoteTaker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liemnguyen0111/NoteTaker/issues"
+  },
+  "homepage": "https://github.com/liemnguyen0111/NoteTaker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
+  }
+}
