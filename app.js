@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
   })
 
 //Use routes that created in the listRoute.js for API request
-app.use(require('./routes/listRoutes.js'))
+app.use(require('./routes'))
 
 //Start a server listener
 app.listen(process.env.PORT || 3000, () => 
