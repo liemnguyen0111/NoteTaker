@@ -6,15 +6,6 @@ const {promisify} = require('util')
 
 const wfs = promisify(writeFile)
 
-// GET all items
-router.get('/api/notes', (req, res) => {
-
-    //Return all note
-    res.json(note)
-
-  })
-
-
 // POST items
 router.post('/api/notes', (req, res) => {
 
