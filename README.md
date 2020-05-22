@@ -1,5 +1,14 @@
 # Unit 11 Express Homework: Note Taker
 
+## Installation
+
+To install all the dependencies that are requires to run this application, use the following command:
+npm i
+node app.js or npx nodemon
+
+Below is the video demonstrate how to use the application:
+![Note Taker]('./gif/NoteTaker.gif')
+
 ## Description
 
 Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
