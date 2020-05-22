@@ -6,6 +6,12 @@ const {promisify} = require('util')
 
 const wfs = promisify(writeFile)
 
+// GET items
+router.get('/api/notes', (req,res) => 
+{
+  res.send(note)
+})
+
 // POST items
 router.post('/api/notes', (req, res) => {
 
@@ -17,9 +23,9 @@ router.post('/api/notes', (req, res) => {
 
     //Update database
     update_db()
-    
+    console.log(note)
     //Return an updated note
-    res.json(note)
+    res.send(note)
   })
 
 // DELETE items
@@ -39,7 +45,7 @@ router.delete('/api/notes/:id', (req, res) => {
     update_db()
    
     //Return an updated note 
-    res.json(note)
+    res.send(note)
   })
 
 // A function that re-write/update database 
